@@ -1,0 +1,14 @@
+{
+  "name": "apify-api-integration",
+  "version": "1.0.0",
+  "description": "Apify API integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0"
+  }
+}
