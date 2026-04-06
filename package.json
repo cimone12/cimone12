@@ -5,8 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node workflow.js",
+    "google": "node workflow.js --sources=google",
+    "reddit": "node workflow.js --sources=reddit",
+    "quora": "node workflow.js --sources=quora",
+    "insurance": "node workflow.js --sources=insurance",
+    "connect": "node index.js"
   },
   "dependencies": {
     "apify-client": "^2.9.0"
