@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { getUser, listActors } from './apify.js';
 
 async function main() {
