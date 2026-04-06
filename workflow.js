@@ -9,6 +9,7 @@
  *   APIFY_API_TOKEN=<token> node workflow.js [--sources=google,reddit,quora,insurance]
  */
 
+import 'dotenv/config';
 import { scrapeGoogle }         from './scrapers/google.js';
 import { scrapeReddit }         from './scrapers/reddit.js';
 import { scrapeQuora }          from './scrapers/quora.js';

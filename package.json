@@ -10,9 +10,12 @@
     "reddit": "node workflow.js --sources=reddit",
     "quora": "node workflow.js --sources=quora",
     "insurance": "node workflow.js --sources=insurance",
-    "connect": "node index.js"
+    "connect": "node index.js",
+    "generate": "node generate-sample-leads.js"
   },
   "dependencies": {
-    "apify-client": "^2.9.0"
+    "@anthropic-ai/sdk": "^0.82.0",
+    "apify-client": "^2.9.0",
+    "dotenv": "^17.4.1"
   }
 }
