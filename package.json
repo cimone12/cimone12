@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node workflow.js",
+    "start": "node run.js",
     "google": "node workflow.js --sources=google",
     "reddit": "node workflow.js --sources=reddit",
     "quora": "node workflow.js --sources=quora",
